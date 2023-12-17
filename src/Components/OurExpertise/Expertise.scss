@@ -1,0 +1,65 @@
+.Expertise {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .text-div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    h2 {
+      font-size: 50px;
+    }
+  }
+  .icon-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    .list-card-div {
+      color: white;
+      gap: 20px;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 100px;
+        }
+        .react {
+          &:hover {
+            color: #61dbfb;
+          }
+        }
+        .python {
+          &:hover {
+            color: #ffd43b;
+          }
+        }
+        .node {
+          &:hover {
+            color: #8cc84b;
+          }
+        }
+        .html {
+          &:hover {
+            color: #264de4;
+          }
+        }
+        .css {
+          &:hover {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
